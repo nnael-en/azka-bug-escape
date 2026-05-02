@@ -1,0 +1,57 @@
+public class Main {
+    public static void main(String[] args) {
+
+        // LEVEL 1 — Expression + Order of Operations
+        int base = 4;
+        int exponent = 2;
+        int result = base + exponent * 3;
+        System.out.println("LEVEL 1:");
+        System.out.println(result); // 
+
+        // LEVEL 2 — OOP Behavior
+        Wand wand = new Wand("Phoenix Feather", 12);
+        wand.setPower(5);
+        wand.setPower(10); // overwrites previous
+
+        System.out.println("\nLEVEL 2:");
+        System.out.println(wand.getPower()); // ?
+
+        // LEVEL 3 — Conditional Logic Edge Case
+        int magicLevel = 10;
+
+        System.out.println("\nLEVEL 3:");
+        if (magicLevel >= 10 && magicLevel < 15) {
+            System.out.println("Stable");
+        } else {
+            System.out.println("Unstable");
+        }
+
+        // LEVEL 4 — Loop Logic
+        int sum = 0;
+        for (int i = 1; i <= 3; i++) {
+            sum += i;
+        }
+
+        System.out.println("\nLEVEL 4:");
+        System.out.println(sum); // 
+    }
+}
+
+class Wand {
+    String core;
+    int length;
+    private int power;
+
+    Wand(String core, int length) {
+        this.core = core;
+        this.length = length;
+    }
+
+    void setPower(int power) {
+        this.power = power;
+    }
+
+    int getPower() {
+        return power;
+    }
+}
