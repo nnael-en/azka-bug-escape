@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Honeydukes Sweetshop</title>
+</head>
+<body>
+
+    <header>
+        <h1>Honeydukes Sweetshop</h1>
+    </header>
+
+    <section>
+        <h2>Our Products</h2>
+        <ul>
+            <li>Chocolate Frogs</li>
+            <li>Bertie Bott's Beans</li>
+        </ul>
+    </section>
+
+    <section>
+        <a href="#">Order Now</a>
+    </section>
+
+</body>
+</html>
